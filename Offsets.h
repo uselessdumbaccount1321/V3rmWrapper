@@ -17,6 +17,8 @@
 #include <chrono>
 #include <unordered_map>
 
+std::string DATASTREAM = "DataStream/WrapperInterval/DataHandler";
+
 DWORD unprotect(DWORD addr)
 {
 	BYTE* tAddr = (BYTE*)addr;
